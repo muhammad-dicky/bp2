@@ -2,6 +2,8 @@
 
 $server_key = "SB-Mid-server-OKBa9QyvCPuRIG7ItfaGaAKS";
 
+POST http://192.168.43.144/gotam/api/midtrans/charge
+
 $is_production = false;
 
 $api_url = $is_production ? 
